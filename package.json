@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yagolucas/hackaton-iesb-pos-ia.git"
+    "url": "git+https://github.com/yagolucas/hackaton-iesb-server.git"
   },
   "author": "Yago Lucas de Souza Freitas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yagolucas/hackaton-iesb-pos-ia/issues"
+    "url": "https://github.com/yagolucas/hackaton-iesb-server/issues"
   },
-  "homepage": "https://github.com/yagolucas/hackaton-iesb-pos-ia#readme",
+  "homepage": "https://github.com/yagolucas/hackaton-iesb-server#readme",
   "dependencies": {
     "async": "^3.2.3",
     "express": "^4.17.3",
