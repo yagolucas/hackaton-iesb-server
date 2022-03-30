@@ -11,7 +11,7 @@ router.get("/", async (req, res) => {
     await client.connect();
     const db = client.db("admin");
     const running = db.collection("RUNNING");
-    await running.find({ }).limit(20).toArray((err, data) => {
+    await running.find({ }).limit(5).toArray((err, data) => {
       if(err) {
         res.status(400).send("recurso não encontrado");
         return;

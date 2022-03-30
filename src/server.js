@@ -12,4 +12,4 @@ app.get("/", (req, res) => {
 
 app.use("/running", runnigRoute);
 
-app.listen(3000);
+app.listen(3001);
