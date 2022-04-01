@@ -1,8 +1,9 @@
+require("dotenv").config();
 const express = require("express");
 const router = express.Router();
 
 const MongoClient = require("mongodb").MongoClient;
-const url = "mongodb://root:example@localhost:27017/";
+const url = `mongodb://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWD}@localhost:27017/`;
 const client = new MongoClient(url);
 
 router.get("/", async (req, res) => {
